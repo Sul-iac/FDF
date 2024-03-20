@@ -1,22 +1,10 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: qbarron <qbarron@student.42perpignan.fr    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/02/17 15:17:50 by qbarron           #+#    #+#              #
-#    Updated: 2024/02/17 15:17:50 by qbarron          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = fdf
 CC = gcc
-FLAGS = -Wall -Wextra -g
+FLAGS = -Wall -Wextra -Werror -g
 RM = rm -f
 FRAMEDIR = ./mlx
 FRAMEWORK = -Lmlx -lmlx -Imlx -lXext -lX11 -lm -lz
-SRC = main.c rotations.c
+SRC = main.c readfile.c draw.c utils/ft_atoi.c utils/ft_strcmp.c utils/ft_putstr_fd.c utils/utils2.c utils/ft_split.c utils/utils.c utils/get_next_line/get_next_line.c utils/get_next_line/get_next_line_utils.c
 
 OBJ = $(SRC:.c=.o)
 
