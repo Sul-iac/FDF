@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   readfile.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thoribal <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: qbarron <qbarron@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 10:21:16 by thoribal          #+#    #+#             */
-/*   Updated: 2023/11/09 11:22:49 by thoribal         ###   ########.fr       */
+/*   Updated: 2024/03/26 15:57:52 by qbarron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "fdf.h"
 
 int	get_width(char *str)
